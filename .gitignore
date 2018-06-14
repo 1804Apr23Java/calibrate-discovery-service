@@ -116,4 +116,5 @@ testem.log
 #System Files
 .DS_Store
 
-
+#ignore target folder
+*/target/*
