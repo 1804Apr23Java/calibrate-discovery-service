@@ -16,7 +16,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: ${DOCKER_LOCATION}:8761
+      defaultZone: ${DOCKER_LOCATOIN}:8761
     register-with-eureka: false
     fetch-registry: false
     
