@@ -3,9 +3,6 @@ spring:
     name: eureka
   cloud:
     config:
-      uri: $CONFIG_HOME
-      
+      uri: ${CONFIG_HOME}
+      fail-fast: true
 
-
-  
-    
