@@ -6,45 +6,4 @@ spring:
       uri: ${CONFIG_HOME}
       fail-fast: true
 
-#spring:
-#  application:
-#    name: eureka
-#  cloud:
-#    config:
-#      uri: 8888
-      
-#spring:
-#  application:
-#    name: eureka
-#  cloud:
-#    config:
-#      uri: ${CONFIG_HOME}
-#      fail-fast: true
-#eureka:
-#  client:
-#    serviceUrl:
-#      defaultZone: ${DOCKER_LOCATOIN}:8761
-#    register-with-eureka: false
-#    fetch-registry: false
-#    
-#server:
-#  port: 8761
- 
-#spring:
-#  application:
-#    name: eureka
-#  cloud:
-#    config:
-#      uri: 8888
-#      fail-fast: true
-#eureka:
-#  client:
-#    serviceUrl:
-#      defaultZone: ${DOCKER_LOCATOIN}:8761
-#    register-with-eureka: false
-#    fetch-registry: false
-#    
-#server:
-#  port: 8761
-
 
